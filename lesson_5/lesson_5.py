@@ -63,7 +63,7 @@
 #
 # fullname = name + " " + surname + " " + str(age)  # конкатенація (додавання рядків)
 # print(fullname)
-#
+
 #
 # text = "Hello, world" * 3
 # print(text)
@@ -81,8 +81,8 @@
 # print(ord("A"))
 # print(chr(65))
 # print(chr(99))
-
-####
+#
+# ####
 # text = "helLo woRlD"
 #
 # # isalpha(): повертає True, якщо рядок складається лише з алфавітних символів
@@ -214,16 +214,16 @@
 # print(result_sentence)
 
 ##########
-# import keyword
-# print(keyword.kwlist)
+import keyword
+print(keyword.kwlist)
 
-# import string
-#
-# print(string.ascii_letters)
-# print(string.ascii_lowercase)
-# print(string.ascii_uppercase)
-# print(string.punctuation)
-# print(string.digits)
+import string
+
+print(string.ascii_letters)
+print(string.ascii_lowercase)
+print(string.ascii_uppercase)
+print(string.punctuation)
+print(string.digits)
 
 #################
 # import random
