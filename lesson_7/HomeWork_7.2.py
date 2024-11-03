@@ -2,7 +2,6 @@ def correct_sentence(text: str):
     sentences = text.split('. ')
     corrected_sentences = []
 
-    # Проходимося по кожному реченню
     for sentence in sentences:
         corrected_sentence = sentence.capitalize()
 
