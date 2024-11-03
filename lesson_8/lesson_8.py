@@ -295,3 +295,47 @@
 # print(numbers_list_without_duplicates)
 # numbers_list_unique_values_only = get_unique_values(numbers_list)
 # print(numbers_list_unique_values_only)
+
+
+# import math
+#
+#
+# def calculate_circle_area(radius):
+#     if radius < 0:
+#         return print("Radius can't be a negative number")
+#
+#     area = math.pi * (radius ** 2)
+#     return area
+#
+#
+# print(calculate_circle_area(int(input("Enter radius: "))))
+
+# def sum_of_digits(number):
+#     number = abs(number)
+#     total = 0
+#
+#     for digit in str(number):
+#         total += int(digit)
+#     number = total
+#
+#     return number
+#
+#
+# input_number = -9876
+# result = sum_of_digits(input_number)
+# print("Result: ", result)
+
+
+# def reverse_words(sentence):
+#
+#     words = sentence.split()
+#
+#     reversed_words = [word[::-1] for word in words]
+#
+#     return ' '.join(reversed_words)
+#
+#
+# input_sentence = "Python is fun"
+# result = reverse_words(input_sentence)
+# print("Result:", result)
+
